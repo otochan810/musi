@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="word-search">
+    <form action ="/search.py">
+      <div class="artist-name">
+          <h3>アーティスト名</h3>
+          <p><input type="text"> </p>
+      </div>
+      <div class="rylics">
+          <h3>歌詞の1部</h3>
+          <p><input type="text"></p>
+      </div>
+      <p><input type="submit" value="検索" class="form-control btn btn-primary"></p>
+    </form>
+</div>
