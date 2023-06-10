@@ -1,0 +1,4 @@
+gunicon==20.0.4
+flask==2.2.2
+requests==2.29.0
+
