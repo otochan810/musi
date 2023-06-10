@@ -1,16 +1,19 @@
 {% extends "layout.html" %}
 {% block content %}
-
-<div class="word-search">
-    <form action ="/search.py">
-      <div class="artist-name">
-          <h3>アーティスト名</h3>
-          <p><input type="text"> </p>
-      </div>
-      <div class="rylics">
-          <h3>歌詞の1部</h3>
-          <p><input type="text"></p>
-      </div>
-      <p><input type="submit" value="検索" class="form-control btn btn-primary"></p>
-    </form>
-</div>
+        <h1>ワード検索</h1>
+         <div class="word-search">
+             <form action ="/search" method="post" enctype="multipart/form-data">
+                <div class="word">
+                 <div class="artist-name">
+                     <h3>アーティスト名</h3>
+                     <p><input type="text" name="artist"> </p>
+                 </div>
+                 <div class="lyrics">
+                     <h3>歌詞の1部</h3>
+                     <p><input type="text" id="lyric" name="lyric" multiple="multiple"></p>
+                 </div>
+                </div>
+                  <p><input type="submit" value="🔍検索" class="form-control btn btn-primary"></p>
+             </form>
+         </div>
+{% endblock %}

@@ -1,0 +1,141 @@
+.frame{
+    margin-top: 25%;
+    background-color: #FFEEFF;
+    border: 3px dashed sandybrown;
+    box-shadow: 0 0 0 10px #FFEEFF;
+    border-radius: 10px;
+    justify-content: center;
+    margin-left: 20%;
+    width: 70%;
+    align-items: center;
+}
+.title{
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    color: #D84315;
+}
+
+.dot{
+   
+}
+
+body{
+    background-color: rgb(249, 246, 216);
+    background-image: radial-gradient(rgba(244, 239, 149, 0.418) 30%,
+    transparent 10%);
+    background-image: 0 0, 20px 20px;
+    background-size:  30px 30px;
+}
+
+.content {
+    margin: 60px;
+    background-size: cover;
+}
+
+nav{
+    font-size: 20px;
+    color: #D84315;
+    font-style: oblique;
+
+}
+
+.word{
+    margin-top: 50px;
+    margin-left: 18%;
+    background: aliceblue;
+    color: black;
+    border: 3px dashed aqua;
+    box-shadow: 0 0 0 15px aliceblue;
+    padding: 1.0em;
+    border-radius: 3%;
+    width: 60%;
+}
+
+.artist-name{
+    margin-left: 50px;   
+}
+
+.lyrics{
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-bottom: 36px;
+}
+
+input[type='text']{
+    margin: -5px 30px;
+    width: 70%;
+    padding: 1%;
+    font-size: 20px;
+}
+
+input[type='submit']{
+    font-size: 20px;
+    margin-left: 77%;
+    margin-top: 30px;
+    padding: 5px 10px;
+    width: 120px;
+    border-radius: 30px;
+    color: #FF69A3;
+    font-weight: bold;
+    border-color: #FF97C2;
+    background-color: #FFEEFF;
+}
+
+.box2{
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 13%;
+    background: aliceblue;
+    color: black;
+    border: 3px dashed aqua;
+    box-shadow: 0 0 0 15px aliceblue;
+    padding: 1.0em;
+    border-radius: 3%;
+    width: 70%;
+}
+
+.url{
+    text-align: center;
+}
+
+.other{
+    margin-left: 80%;
+    margin-top: 100px;
+}
+
+h1{
+    margin-left: 6%;
+    margin-top: 50px;
+    font-size: 30px;
+    color: darkmagenta;
+    text-decoration: underline;
+    text-decoration-color: #FF69A3;
+
+}
+h2{
+    text-align: center;
+    font-size: 60px;
+    color: dodgerblue;
+    text-decoration: underline;
+    text-decoration-color: mediumslateblue;
+}
+
+h3{
+    font-size: 25px;
+    color: dodgerblue;
+}
+
+p{
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+a{
+    font-size: 18px;
+    font-family: cursive;
+    
+}
+
